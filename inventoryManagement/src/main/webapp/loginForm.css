@@ -1,0 +1,150 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url('images/imgs.jpg');
+    background-size: cover;
+}
+.main-parent .loginHeader{
+    text-align: center;
+    margin-top: 50px;
+}
+.main-parent .loginHeader h1{
+    font-size: 60px;
+    color: #f57224;
+}
+.main-parent .loginHeader p{
+    color: #f57224;
+    font-size: 27px;
+}
+.main-parent .loginHeader p:after{
+    content: " ";
+    display: block;
+    height: 4px;
+    background: black;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.main-parent .form-wrap
+{
+    margin-left: 410px;
+    margin-top: 50px;
+    width: 400px;
+    background: rgb(255 255 255 /75%);
+    border-radius: 10px;
+    padding: 35px 40px;
+    backdrop-filter: blur(5px);
+}
+.form-wrap form h1
+{
+    font-family: 'Acme', sans-serif;
+    font-variant: small-caps;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.form-wrap form h1 span
+{
+    font-variant: small-caps;
+    color: #f57224;
+}
+.form-wrap form .single-input input
+{
+    width: 100%;
+    padding: 14px 10px;
+    border: 1px solid rgba(100, 100, 100, 70%);
+    outline: none;
+    background: transparent;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.form-wrap form .submit-button
+{
+    text-align: center;
+}
+.form-wrap form .submit-button button.button
+{
+    padding: 15px 30px;
+    width: 320px;
+    background-color: #f57224;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+.form-wrap form .account-have
+{
+    justify-content: space-between;
+    display: flex;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.form-wrap form .account-have a
+{
+
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    padding: 10px 5px;
+    background: #f57224;
+    text-align: right;
+}
+.login-header a{
+     font-size: 20px;
+     color: #fff;
+     padding: 5px 10px;
+     text-decoration: none;
+     border: 2px solid transparent;
+     border-bottom: 2px solid #fff;
+}
+.login-header a:hover{
+    border-radius: 5px;
+    border: 2px solid #fff;
+}
+.banner{
+    background: url('./inventory.jpg');
+    background-size: cover;
+    background: rgb(50, 50, 50, 60%);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.homepage-container{
+    width: 100%;
+    max-width: 900px;
+    height: 500px;
+    margin: 0 auto;
+}
+.banner-header h1{
+    font-size: 100px;
+    color: #f57224;
+    line-height: 100% ;
+}
+.banner-header p{
+    font-size: 40px;
+    color: #f57224;
+    line-height: 100% ;
+}
+.bannerTagline{
+    margin-top: 20px;
+    font-size: 25px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
